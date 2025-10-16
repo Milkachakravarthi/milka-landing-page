@@ -11,3 +11,62 @@
   <img src="images/your-photo.jpg" alt="Milka Photo" width="200">
 </body>
 </html>
+html lang="en">
+.container{max-width:1100px;margin:0 auto;padding:28px}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:68px;height:68px;border-radius:10px;background:linear-gradient(135deg,#fbe6e9,#ffdfe6);display:flex;align-items:center;justify-content:center;font-weight:700}
+h1{font-size:28px;margin:0}
+.sub{color:var(--muted);margin-top:6px}
+.cta{display:flex;gap:10px}
+.btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(232,122,138,.2)}
+.grid{display:grid;grid-template-columns:1fr 380px;gap:28px;margin-top:18px}
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(19,24,34,.04)}
+.courses{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+.course{padding:12px;border-radius:10px;border:1px solid #f0f0f3}
+.muted{color:var(--muted);font-size:14px}
+.testimonials{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+footer{margin-top:28px;padding:18px 0;color:var(--muted);font-size:14px;border-top:1px solid #eef2f6}
+@media(max-width:880px){.grid{grid-template-columns:1fr}.courses{grid-template-columns:1fr}.testimonials{grid-template-columns:1fr}}
+.tagline-multi{margin-top:8px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="brand">
+<div class="logo">M&N</div>
+<div>
+<div style="font-weight:700">Milka Chakravarthi</div>
+<div class="muted">Trainer at Digital Billionaire • Founder, M&N Sparks Clothing Brand</div>
+</div>
+</div>
+<div class="cta">
+<a class="btn" href="#book">Book a Free Call</a>
+<a class="btn ghost" href="#courses">Explore Courses</a>
+</div>
+</header>
+
+
+<!-- HERO -->
+<section class="card">
+<div style="display:flex;gap:18px;align-items:center">
+<img src="images/your-photo.jpg" alt="Milka Photo" style="width:120px;height:120px;border-radius:12px;object-fit:cover">
+<div>
+<h1>Helping Housewives & Working Professionals Build Digital Income Sources</h1>
+<div class="sub">Learn high-paid skills in your regional language — Tamil, Kannada, Telugu & English. Start freelancing, get clients, and grow your business with practical mentorship.</div>
+<div class="tagline-multi">Learn high-paid skills • Free mentorship guidance • Affiliate Marketing & More</div>
+<div style="margin-top:12px;display:flex;gap:10px">
+<a class="btn" href="#book">Book a Free Strategy Call</a>
+<a class="btn ghost" href="#courses">View Courses & Mentorship</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Rest of your content remains same as in previous HTML code -->
+</div>
+</body>
+</html>
